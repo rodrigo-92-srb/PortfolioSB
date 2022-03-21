@@ -6,6 +6,7 @@ API desenvolvida com Spring Boot para controle de projetos de programação
 + Injeção de Dependência
 + 
 
+
 ### CRUD
 
 <div>
@@ -15,8 +16,8 @@ API desenvolvida com Spring Boot para controle de projetos de programação
 
 ### Injeção de Dependência
 <div>
-     <p> </p>
-     <p> </p>
+     <p> Injeção de dependência é utilizada quando se precisa de uma classe dentro de outra classe. No caso do projeto precisamos de uma classe <b>ProjectRepository</b> dentro da classe <b>ProjectController</b>. </p>
+     <p> Sendo assim adicionamos a notation <b>@AutoWired</b> e injetamos um ProjectRepository dentro de <b>ProjectController</b>. Uma vez que o <b>ProjectController</b> é gerenciado pelo Spring, a injeção de dependência é que vai permitir o que esta classe (<b>ProjectController</b>) acesse outra classe (<b>ProjectRepository</b>).</p>
 </div>
 
 
